@@ -39,3 +39,9 @@ let invertedNumbers = [1, 2, 3, 4, 5];
 
 let invertedResult = invertedNumbers.map((num) => -num);
 console.log(invertedResult);
+
+
+//challenge 4
+let ignoreNumbers = "Hello 123 World 456";
+let filteredString = ignoreNumbers.split("").filter((char) => isNaN(char) || char === " ").join("");
+console.log(filteredString);
