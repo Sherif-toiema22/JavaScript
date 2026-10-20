@@ -41,7 +41,12 @@ let invertedResult = invertedNumbers.map((num) => -num);
 console.log(invertedResult);
 
 
-//challenge 4
+//challenge 3
 let ignoreNumbers = "Hello 123 World 456";
 let filteredString = ignoreNumbers.split("").filter((char) => isNaN(char) || char === " ").join("");
 console.log(filteredString);
+
+//challenge 4
+let mix="Hello 123 World 456";
+let filteredMix = mix.split("").filter((char) => isNaN(parseInt(char)) || char === " ").join("");
+console.log(filteredMix);
