@@ -24,4 +24,18 @@
 let swappingCasee="SHerIf";
 let result = swappingCasee.split("").map((char)=>{
     return char === char.toUpperCase() ? char.toLowerCase() : char.toUpperCase();
-}
+});
+
+console.log(result.join(""));
+
+
+// challenge 2
+let myString = "Hello World";
+let reversedString = myString.split("").reverse().join("");
+console.log(reversedString);
+
+
+let invertedNumbers = [1, 2, 3, 4, 5];
+
+let invertedResult = invertedNumbers.map((num) => -num);
+console.log(invertedResult);
