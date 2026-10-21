@@ -48,5 +48,5 @@ console.log(filteredString);
 
 //challenge 4
 let mix="Hello 123 World 456";
-let filteredMix = mix.split("").filter((char) => isNaN(parseInt(char)) || char === " ").join("");
+let filteredMix = mix.split("").filter((char) => !isNaN(parseInt(char)) || char === " ").join("");
 console.log(filteredMix);
