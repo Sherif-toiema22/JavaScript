@@ -30,7 +30,11 @@ console.log(newObject);
 
 
 let myIdElementById=document.getElementById("my-div");
-let myIdElementByClassName=document.getElementsByClassName("p");
+let myIdElementByClassName=document.getElementsByClassName("paragraph");
+let myQuerySelector=document.querySelector("#my-div");
+let myQuerySelectorAll=document.querySelectorAll(".paragraph");
 
 console.log(myIdElementById);
-console.log(myIdElementByClassName);
+console.log(myIdElementByClassName[1]);
+console.log(myQuerySelector);
+console.log(myQuerySelectorAll);
