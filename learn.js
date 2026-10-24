@@ -27,3 +27,10 @@ let user2={
 };
 let newObject = Object.assign({}, user, user2);
 console.log(newObject);
+
+
+let myIdElementById=document.getElementById("my-div");
+let myIdElementByClassName=document.getElementsByClassName("p");
+
+console.log(myIdElementById);
+console.log(myIdElementByClassName);
